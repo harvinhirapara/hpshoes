@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url("1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    header h1 {
+    margin: 0;
+    
+    }
+    header {
+    background-color: #0b0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      background-color: black;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fdfcfc;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+     
+    }
+
+    .img {
+      border: solid #0b0000 0px;
+      height: 420px;
+      width: 420px;
+      margin: 15px;
+      background-color: #f5f5f5;
+      margin: 50px;
+      
+    }
+
+    .img:hover {
+      transform: scale(1.1);
+    }
+
+    .footer {
+      background-color: #000000;
+      color: #fff;
+      padding: 5px 20px;
+      text-align: center;
+    }
+
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: black;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fdfcfc;
+}
+
+main {
+    padding: 2rem;
+}
+    .cta-button:hover {
+      background-color: #45a049;
+    }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #302f496b;
+  padding: 40px 80px;
+  margin-top: 450px;
+  align-content: end;
+
+}
+
+.footer .copy {
+  color: #fff;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: #a1a1a1;
+  padding: 10px 20px;
+}
+.shoes{
+margin-top: 100px;
+height: 50%;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="color: #fff;">HP SHOES COLLECTIONS</h1>
+    <nav>
+      <ul style="margin: 30px;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="conntact 2.html">Contact Us</a></li>
+        <li><a href="about  us.html">About Us</a></li>
+        <li><a href="#">Brands</a></li>
+        <li><a href="Login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1 style="text-align: center;">Brands</h1>
+    <hr>
+    <h2 style="text-align: center;">WE HAVE THOSE KIND OF SHOES BRANDS</h2>
+
+  <div class="shoes">
+    <div class="row">  
+      <a href="nike.html">
+      <img class="img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAclBMVEUAAAD///94eHjp6enHx8f29vaZmZlnZ2f09PSUlJTR0dG7u7vw8PDt7e1HR0dWVlahoaHc3Nzh4eFQUFCHh4cqKio2NjZCQkKvr68fHx+pqaldXV28vLx0dHQZGRkeHh6AgICMjIwODg44ODhra2snJyemI6sGAAADxElEQVR4nO3biXqqMBCG4QZwxQV3a7XFau//Fo+16AESNoUk+HzvBTDDSMNPoG9vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxkxNN1DSeqOt1FZbpWc4flffb+eH2ko96mPndoJvffW6Y321HjHpDoWY9XSWdITWctWsll5HCLFda636IeZa61Xg7MeXeQg31Fx3I8RBc8lSeltXXHkL3aU/hejrrlloGsz+5iH6waf+8peLs6u/ao7NYChuZkau4N/f491EYaVoQY34+vJZnH8pPTRSWfJ18Ef/5yHGA0N9DH6rh4aKx90X1MjQWDr4uNY3Vf1mcV9QbzSHkbj1309irP5bckGNuEuTDV3zkLm7ziqML6jCVBhJiH4hM00c/LE0D9EJDN8CB1Ej+iv3dnN5Hpcw4uhvJWkRdaL5WUdeUCOGwkjC7U/Z01fydJQW1IixMJLg3drZ6an3Ge77GQMxGEYSwntDOm47Z9/NmscljKw0dFDC+/+Wmk4DH+oFNTI3GkYSYutc2GCZ655hDs+itwVhrK9jQzXWR0UiizMeRhK+460FDRT4yVlQI+bDSJIXb86v+eDf523OgnorakEYSVgk2pvVeehpViKLGw00vqYpKXUfqOuwRQtqZHiuq2CNDqkm6whMp6WnHIDEljCSkn4efTbcvzuJPcMcZndGcjhSq19PHK3MgnqbvUVhJEU+h0fvPKUW1EjHxGuasnqKhh/YVZrIe4Y5bAsjKapTqfgeMPkSppg/aeZU6vKj/h3LH8BR7Rnm6FuxM5Jrp+683FB627xHXBVLdkbyZd013aLckLlnmMPga5oKFtknkHONnwbDSgvI35RtDSNpGX86V52u6nY5OXpFj7gqFoeRtIKANd8d7g+sX5Nz16+6fkTTtTmMpKnvOtIpjcePXBo3loeRNDnX125veRiRbBseyMj+MCKpksera0UYkTyzTBRpRxiRNTaQ1oQRSbnbTnUtCiOSSRMD6QTP7EkZl5PsHzVvVxiR1X6dtC6MyFa1DqSNYUShxom0M4wo1JZP2hpGFEq+mCrQ3jCiMig+4UJtDiMq62cH0tnZ9M1IParvqca1PowonZ+YyN62b0bq8thm4iWM2PW/YLXaPDQRK78ZqU+3+kReKIxkqJhR3Ka+i7RKlXvP/sXCSKayu7IWfePcvLy3gfe/meDlV5GkRdH7wOBkukUDwsypdLzlj+nuTJn68s6Buz++algta+Xs9jN3PBq786EfOO3fSAQAAAAAAAAAAAAAAAAAAAAAAAAAAMDr+AcFHSZIJLIKigAAAABJRU5ErkJggg==" alt="Nike Shoes"></a>
+      <a href="jordan.html"><img class="img" src="data:image/png;base64,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" alt="Nike Shoes"></a>
+    </div>
+
+    <div class="row">
+      <a href="puma.html"><img class="img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAAAgVBMVEUAAAD////8/Pzc3Nw/Pz/S0tJ+fn4EBAT29vbx8fFNTU3Nzc2enp5lZWWvr68TExNxcXEcHBwiIiJERETCwsLi4uK7u7ulpaXGxsaGhobg4ODo6OiAgICNjY0rKyvX19czMzNaWlp2dnY6OjqXl5dVVVVJSUlgYGAvLy9tbW21tbVhYetPAAADuElEQVR4nO3b2XKiQBSAYRpUJO4b0RCjUTOOvv8DTgOSoNMICgJp/6+SiyzVdTx1egfDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+KUG8ns0MOwCmmosWkU0Uztz17Bn0wIa2s6FEFYBDdXNlxD9phAvuRvaicCwgJhqZiVM/5OtNp+jPM0MOmGGxKKowOqi0fQzdPqyuo172xl5pwyJryLDq4GWuLDa3NfQd4Y0G4tsoxn2soj/g9e6o6VO1I55dx3W1Lh9WUW+t55x4xJgFyXYmjwo0qo0PEWCTPlJpx83tTM5lVBQgHotjLzzbhbTvmlekt1VJnb2/qg4K9RMTJEQnXHmZnpB5XUfGGh1Rp1ovlcVUi9rM5ZswdFtrv+2SKwimbfXbG3IIhKzx4ZZHTmyLuUs1FGP2qZoDrK0IkvRybUwr7sPf/JaJIxJ3p/0Caoh/29fQqBVWyX0NjN9U9qX2+ASIqxcQoqkZdpKpy3amfrjL/V34a7eVvNd10ye/VNKRO7yduUEW4l+Yl5+upoQ86ttWMLRaz19ZpqeocDsyipyr+uaMdAQV7pXrI7kujB5cyqXjRpP+D0/Ac7RE/FUmUKZOLk/tVX9SS6rjqUHXp6BfxIie8nhbDprq7qfKVzlrPUi/6bbAdGZnsxRsBHbd8IO5fepF6NlqurIUayQxo7c7pYddZlsY/wefe71zgpK6OgPLEPVxlZuRy4vSdaO/O2h5KgrtZ5EB2mHhN1/J0hSNCYNTZ33r2kOygz5B6+LKI2TedA5tT0DSWEbn44qRf4YZc7c7nLXt8JC0/GgMauP5F1brKruuSzRhX+SpLwdict+LqmrcdcR6oVkWEI3nG5rbOiqxqQTjfdmt1lvum5z5jmO+V9JPdWSKIvB3r1YLjlVh1RDW+u8qz3zhJaof9bXmlWHU0vH+KRmanzemMPZndvTL4yUDvEUZbyvfTZWbFpjMFLaxFLkVR1MTTmxk26dLxlziN++basOpp7WsRQ964lamvnPaMSsrxYrozuf0tbfKylK5ZGiNJMoRRq+NlQM21icRuxl1aHUlf2949fspZhidcIntluavdBQqLegjNpcgyQbhG+QOD3qKIFtjKzg5JHLokR2uKGVlaTxk3z5bdom2/0UwTFt/vfXdfbpp0i7184LtfdT9LRPqmWyZxuS5itcPzKnJduGp/zMaVc4XKelmXIpm2YvtH3/vDAuVZTq1XyOd2NzaXAachXpAQAAAAAAAAAAAAAAAAAAAAAAAIDq/AMt6x0FHJgffAAAAABJRU5ErkJggg==" alt="Nike Shoes"></a>
+      <a href="adida.html"><img class="img" src="data:image/png;base64,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" alt="Nike Shoes"></a>
+      
+    </div>
+  </div>
+  </div>
+
+  <footer class="footer">
+    <div class="copy">&copy; 2022 HP shoes</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+        <a href="index.html" style="color: white;">Home</a>
+        <a href="about  us.html" style="color: white;">About</a>
+        <a href="conntact 2.html" style="color: white;">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
